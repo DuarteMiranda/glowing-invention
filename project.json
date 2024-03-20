@@ -1,9 +1,11 @@
 {
   "name": "BlankProcess2",
+  "projectId": "fcee06ab-c703-41c6-b749-fbe1166b7a41",
   "description": "Blank Process",
   "main": "Main.xaml",
   "dependencies": {
-    "Sharepoint.Activities": "[0.1.0.517142826]"
+    "UiPath.Cryptography.Activities": "[1.5.0]",
+    "UiPath.System.Activities": "[23.10.5]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -12,16 +14,21 @@
   "projectVersion": "1.0.0",
   "runtimeOptions": {
     "autoDispose": false,
+    "netFrameworkLazyLoading": false,
     "isPausable": true,
+    "isAttended": false,
     "requiresUserInteraction": true,
     "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
     "excludedLoggedData": [
       "Private:*",
       "*password*"
     ],
     "executionType": "Workflow",
     "readyForPiP": false,
-    "startsInPiP": false
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false,
+    "pipType": "ChildSession"
   },
   "designOptions": {
     "projectProfile": "Developement",
@@ -34,7 +41,8 @@
       "ignoredFiles": []
     },
     "fileInfoCollection": [],
-    "modernBehavior": false
+    "modernBehavior": false,
+    "saveToCloud": false
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
