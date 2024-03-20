@@ -78,7 +78,7 @@
       <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="416,173" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap:VirtualizedContainerService.HintSize="416,275" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="testVar" />
     </Sequence.Variables>
@@ -88,5 +88,6 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="354,62" sap2010:WorkflowViewState.IdRef="WriteLine_1" Text="This is a test line" />
+    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="354,62" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="This is a new test line" />
   </Sequence>
 </Activity>
