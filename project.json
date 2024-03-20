@@ -1,7 +1,7 @@
 {
   "name": "BlankProcess2",
   "projectId": "fcee06ab-c703-41c6-b749-fbe1166b7a41",
-  "description": "TROLOLOLOL",
+  "description": "TROLOLOLOLOL",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Cryptography.Activities": "[1.5.0]",
